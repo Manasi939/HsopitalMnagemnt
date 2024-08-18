@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Menu Lateral</title>
+
+        <!--fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+        <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+        <!--css-->
+        <link rel="stylesheet" href="./assets/styles/style.css">
+        <link rel="stylesheet" href="./assets/styles/containerStyle.css">
+
+    </head>
+    <body>
+        
+        <div id="sidebar-container"></div>
+        <!--dashboard-->
+        <main class="dashboard">
+         <!-- <h1 class=" title text-[30px] font-bold min-w-72 ">Welcome to MediTech</h1>
+         <div class="flex flex-1 justify-end gap-8">
+        
+            <div class="flex gap-2">
+              <a
+                class="hover:bg-black hover:text-white border-2 border-black flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 bg-white border-black text-black text-sm font-bold leading-normal tracking-[0.015em]"  href="index.html "
+              > 
+                <span class="truncate">Back </span>
+              </a>
+             
+            </div>
+            <div class="flex gap-2">
+              <button
+                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 bg-[#1980e6] text-white text-sm font-bold leading-normal tracking-[0.015em]"
+              >
+                <span class="truncate">Logout</span>
+              </button>
+             
+            </div>
+          </div> -->
+          <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#f0f2f4] px-10 py-4">
+            <div class="flex items-center gap-4 text-[#111418]">
+              <div class="size-6">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M575.8 255.5c0 18-15 32.1-32 32.1l-32 0 .7 160.2c.2 35.5-28.5 64.3-64 64.3l-320.4 0c-35.3 0-64-28.7-64-64l0-160.4-32 0c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L416 100.7 416 64c0-17.7 14.3-32 32-32l32 0c17.7 0 32 14.3 32 32l0 121 52.8 46.4c8 7 12 15 11 24zM272 192c-8.8 0-16 7.2-16 16l0 48-48 0c-8.8 0-16 7.2-16 16l0 32c0 8.8 7.2 16 16 16l48 0 0 48c0 8.8 7.2 16 16 16l32 0c8.8 0 16-7.2 16-16l0-48 48 0c8.8 0 16-7.2 16-16l0-32c0-8.8-7.2-16-16-16l-48 0 0-48c0-8.8-7.2-16-16-16l-32 0z"/></svg>
+              </div>
+              <h2 class="text-[#111418] text-lg font-bold leading-tight tracking-[-0.015em]">9lives MediAssist</h2>
+            </div>
+           
+              <div class="flex gap-2">
+                <button
+                  class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 bg-[#03738C] text-white text-sm font-bold leading-normal tracking-[0.015em]"
+                >
+                  <span class="truncate">Logout</span>
+                </button>
+               
+              </div>
+            </div>
+          </header>
+           
+         <div class="container w-[90%] h-1000 " style="background-image: url('assets\\DoctorHome\\mainImage.png');">
+           
+            <h1 class="greeting">
+                Hello, Doctor!
+            </h1>
+            <a href="DisplayAppointment.html" target="_blank">
+               <button  class="appointments-link" >
+                  View Appointments!
+              </button>
+           </a>
+            
+            
+        </div>
+        
+        
+        <script src="./assets/scripts/loadSidebar.js"></script>
+    
+        </main>
+    </body>
+</html>
